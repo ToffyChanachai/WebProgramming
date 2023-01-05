@@ -2,9 +2,9 @@
 <head><title>โปรแกรมรับค่าจากฟอร์มแบบ GET</title></head>
 <body>
 <?php
-    $number1 = $_GET['number1'];
-    $number2 = $_GET['number2'];
-    $operator = $_GET['operator'];
+    $number1 = $_POST['number1'];
+    $number2 = $_POST['number2'];
+    $operator = $_POST['operator'];
 
     echo "<p>";
     echo "<b>ข้อมูลผู้ใช้ใส่มา </b><br />";

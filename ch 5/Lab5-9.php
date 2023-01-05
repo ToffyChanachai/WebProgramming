@@ -1,7 +1,7 @@
 <html>
 <head><title>การสร้างฟอร์มในการรับค่าเพื่อค านวณ</title></head>
 <body>
-<form method="get" action="lab5-9cal.php">
+<form method="POST" action="lab5-9cal.php">
 <table border="1" align="center" width="500">
     <tr>
         <td colspan="2" align="center">
