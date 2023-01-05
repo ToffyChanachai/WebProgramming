@@ -27,8 +27,8 @@
         <tr>
     <tr>
         <td colspan="2" align="center">
-            <input type="submit" value=" OK " />
-            <input type="reset" value=" Clear " />
+            <input type="submit" name = "submit" value=" OK " />
+            <input type="reset" name = "reset" value=" Clear " />
         </td>
     </tr>
 </table>
