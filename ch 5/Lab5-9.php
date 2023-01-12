@@ -1,5 +1,5 @@
 <html>
-<head><title>การสร้างฟอร์มในการรับค่าเพื่อค านวณ</title></head>
+<head><title>การสร้างฟอร์มในการรับค่าเพื่อคำนวณ</title></head>
 <body>
 <form method="POST" action="lab5-9cal.php">
 <table border="1" align="center" width="500">
