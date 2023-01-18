@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>ข้อมูลผู้ใช้ใส่มา</title>
     <link rel="stylesheet" type="text/css" href="resultstyle.css">
     
 </head>
