@@ -2,7 +2,7 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="resultstyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
 <body>
@@ -17,9 +17,8 @@
   	<h2>ข้อมูลผู้ใช้ใส่มา</h2>
     </div>
     
-    <div class="result">
     รหัสนักศึกษา : <?php echo $id; ?><br />
-    ชื่อ-นามสกุลนักศึกษา : <?php echo $studentName; ?><br />
+    ชื่อ-นามสกุลนักศึกษา <?php echo $studentName; ?><br />
     เพศ :  <?php echo $sex; ?><br />
     งานอดิเรก :
     <?php 
@@ -38,7 +37,7 @@
     ?>
     <br />
 
-    สี :
+    สี = 
     <?php 
     for($i = 0; $i<count($_POST['Color']); $i++)
     {
@@ -50,9 +49,6 @@
     }  
     ?>
     <br />
-    <div class="buttom-area">
-        <button class="btn btn-secondary"><a href='2-27.html'>Back</a></buttom>
-    </div>
-    
+    <a style="color:red" href='2-27.html'> <big> Back </big></a>
 </body>
 </html>
