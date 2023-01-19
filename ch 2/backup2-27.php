@@ -14,6 +14,10 @@
     echo "เพศ : <i> $sex </i> <br/>";
     echo "งานอดิเรก : ";
    
+<<<<<<< HEAD
+
+=======
+>>>>>>> 23eb6296eeb90e0162e445ca65f7fc9e235b6951
     if(!empty($_POST['read'])) {
         $read = $_POST['read'];
         echo " <i> $read </i>";
@@ -37,6 +41,11 @@
         }  
     } 
     echo "<br>";
+<<<<<<< HEAD
+
+    if(isset($_POST['btnSubmit']))
+=======
+>>>>>>> 23eb6296eeb90e0162e445ca65f7fc9e235b6951
 ?>
 <a style="color:red" href='2-27.html'> <big> Back </big></a>
 </body>

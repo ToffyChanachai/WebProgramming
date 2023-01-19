@@ -22,6 +22,11 @@ body {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 23eb6296eeb90e0162e445ca65f7fc9e235b6951
 input[type="text"],
 input[type="password"] {
     width: 55%;
@@ -123,4 +128,9 @@ input[type="reset"]{
     background-color: #853DF5;
     width : 75px;
     height: 35px;
+<<<<<<< HEAD
 }
+
+=======
+}
+>>>>>>> 23eb6296eeb90e0162e445ca65f7fc9e235b6951

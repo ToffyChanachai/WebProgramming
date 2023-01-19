@@ -18,6 +18,47 @@
     </div>
     
     <div class="result">
+<<<<<<< HEAD
+
+    <?php 
+    function Student($id, $studentName, $sex) {
+        echo "รหัสนักศึกษา : ".$id."<br>"; 
+        echo "ชื่อ-นามสกุลนักศึกษา : ".$studentName."<br>"; 
+        echo "เพศ : ".$sex."<br>"; 
+    }
+    Student($id, $studentName, $sex);
+    ?>
+    
+    <?php 
+    function Hobbies($hobbies) {
+        echo "งานอดิเรก : ";  
+        for($i = 0; $i<count($hobbies); $i++)
+        {
+            if(trim($hobbies[$i]) != "")
+            {
+                
+                echo " ". $hobbies[$i];
+            }  
+        }  
+    }
+    Hobbies($_POST['hobbies']);
+    ?>
+    <br />
+
+    <?php 
+    function Color($color) {
+        echo "สี : ";
+        for($i = 0; $i<count($color); $i++)
+        {
+            if(trim($color[$i]) != "")
+            {
+                
+                echo " ". $color[$i];
+            }  
+        }  
+    }
+    Color($_POST['Color']);
+=======
     รหัสนักศึกษา : <?php echo $id; ?><br />
     ชื่อ-นามสกุลนักศึกษา : <?php echo $studentName; ?><br />
     เพศ :  <?php echo $sex; ?><br />
@@ -48,6 +89,7 @@
             echo " ". $_POST['Color'][$i];
         }  
     }  
+>>>>>>> 23eb6296eeb90e0162e445ca65f7fc9e235b6951
     ?>
     <br />
     <div class="buttom-area">
