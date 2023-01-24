@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -97,7 +96,7 @@
     </div>
     
 </body>
-=======
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -118,7 +117,6 @@
     </div>
     
     <div class="result">
-<<<<<<< HEAD
 
     <?php 
     function Student($id, $studentName, $sex) {
@@ -158,7 +156,7 @@
         }  
     }
     Color($_POST['Color']);
-=======
+    ?>
     รหัสนักศึกษา : <?php echo $id; ?><br />
     ชื่อ-นามสกุลนักศึกษา : <?php echo $studentName; ?><br />
     เพศ :  <?php echo $sex; ?><br />
@@ -189,7 +187,6 @@
             echo " ". $_POST['Color'][$i];
         }  
     }  
->>>>>>> 23eb6296eeb90e0162e445ca65f7fc9e235b6951
     ?>
     <br />
     <div class="buttom-area">
@@ -197,5 +194,4 @@
     </div>
     
 </body>
->>>>>>> 15d7f8cecbe70420c453a4b9bececb55e45e22e4
 </html>

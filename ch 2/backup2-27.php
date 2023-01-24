@@ -37,6 +37,8 @@
         }  
     } 
     echo "<br>";
+
+    if(isset($_POST['btnSubmit']))
 ?>
 <a style="color:red" href='2-27.html'> <big> Back </big></a>
 </body>
