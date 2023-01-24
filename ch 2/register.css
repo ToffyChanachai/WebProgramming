@@ -21,7 +21,6 @@ body {
     background: linear-gradient(120deg, #2A14B1, #853DF5);
     overflow: hidden;
 }
-
 input[type="text"],
 input[type="password"] {
     width: 55%;
@@ -123,4 +122,6 @@ input[type="reset"]{
     background-color: #853DF5;
     width : 75px;
     height: 35px;
+
 }
+
