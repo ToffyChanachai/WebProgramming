@@ -14,7 +14,6 @@
     echo "เพศ : <i> $sex </i> <br/>";
     echo "งานอดิเรก : ";
    
-
     if(!empty($_POST['read'])) {
         $read = $_POST['read'];
         echo " <i> $read </i>";
