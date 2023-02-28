@@ -3,7 +3,7 @@
 </head>
 <body>
 <?php
-    $a = 76; $b = 16; $c = 56;
+    $a = 76; $b = 90; $c = 56;
     $min = 0;
     if ($a > $b) {
                 if ($a > $c) $max = $a;
