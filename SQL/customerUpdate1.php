@@ -41,13 +41,6 @@
 
 <form action="formcal.php" method="post" name="form1" id="form1">
 <table border="1" align="center" width="700">
->>>>>>> 495ec28472f3f9385fd854ba973a50a3a61eee19
-    <tr>
-        <td colspan="2" align="center">
-            <big> เพิ่มข้อมูลลูกค้า </big>
-        </td>
-    </tr> 
-
     <tr>
         <td colspan="2"><font color = red> *required field </font></td>
     </tr> 
