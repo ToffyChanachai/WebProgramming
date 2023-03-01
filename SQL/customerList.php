@@ -44,7 +44,7 @@
         echo '<td align="left">'.$rs["customerEmail"].'</td>';
         echo '<td align="left">'.$rs["customerTelephone"].'</td>';
 
-        echo '<td><a href="customerUpdate.php?customerId='.$rs["customerId"].'">[แก้ไข]</a></td>';
+        echo '<td><a href="customerUpdate1.php?customerId='.$rs["customerId"].'">[แก้ไข]</a></td>';
 
         echo '<td><a href = "customerDelete.php ? customerId='.$rs["customerId"].'"onclick="return confirm(\'ยืนยันการลบข้อมูลลูกค้ารหัส '.$rs["customerId"].'\')">[ลบ]</a></td>';
         echo '</tr>';
