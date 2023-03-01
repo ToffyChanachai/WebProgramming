@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<<<<<<< HEAD
 <?php
     $customerId = $_REQUEST['customerId'];
     $hostname = "localhost";
@@ -39,7 +38,6 @@
         <td width="200">รหัส: </td>
         <td width="400"><input type="text" name="customerId" size="13" value="<?php echo $result->customerId ?>" readonly></td>
     </tr>
-=======
 
 <form action="formcal.php" method="post" name="form1" id="form1">
 <table border="1" align="center" width="700">
@@ -56,41 +54,25 @@
 
     <tr>
         <td> ชื่อ-นามสกุล : </td>
-<<<<<<< HEAD
         <td><input type="text" name="fullname" size="60" value="<?php echo $result->customerName ?>"/> </td>
-=======
-        <td><input type="text" name="fullname" size="60"/> </td>
->>>>>>> 495ec28472f3f9385fd854ba973a50a3a61eee19
     </tr>
 
     <tr>
         <td> ที่อยู่ : </td>
         <td>
-<<<<<<< HEAD
             <textarea name = "address" cols="55" rows="5"  required ><?php echo $result->customerAddress ?></textarea><font color = "red">*</font>
-=======
-            <textarea name = "address" cols="55" rows="5" required></textarea><font color = "red">*</font>
->>>>>>> 495ec28472f3f9385fd854ba973a50a3a61eee19
         </td>
         
     </tr>
 
     <tr>
         <td> อีเมล : </td>
-<<<<<<< HEAD
         <td><input type="text" name="email" size="60" placeholder = "E-Mail" value="<?php echo $result->customerEmail ?>"/></td>
-=======
-        <td><input type="text" name="email" size="60" placeholder = "E-Mail"/></td>
->>>>>>> 495ec28472f3f9385fd854ba973a50a3a61eee19
     </tr>
 
     <tr>
         <td> หมายเลขโทรศัพท์ : </td>
-<<<<<<< HEAD
         <td><input type="text" name="tel" size="13" maxlength = "13" minlength = "10" value="<?php echo $result->customerTelephone ?>"/> </td>
-=======
-        <td><input type="text" name="tel" size="13" maxlength = "13" minlength = "10"/> </td>
->>>>>>> 495ec28472f3f9385fd854ba973a50a3a61eee19
     </tr>
 </table>
 
