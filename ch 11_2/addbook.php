@@ -58,7 +58,7 @@ function ZZ($conn)
     $sqlboss = "SELECT * FROM typebook";
     $sqlboss_query = $conn->query($sqlboss);
     while ($row = mysqli_fetch_array($sqlboss_query)) {
-        echo "<option value = " . $row['TypeID'] . ">" . "" . $row['TypeID'] . " " . $row['TypeName'] . "</option>" . "<br>";
+        echo "<option value = " . $row['TypeID'] . ">" . "". $row['TypeName'] . "</option>" . "<br>";
     }
 }
 
@@ -67,7 +67,7 @@ function AA($conn)
     $sql = "SELECT * FROM statusbook";
     $sql_query = $conn->query($sql);
     while ($row = mysqli_fetch_array($sql_query)) {
-        echo "<option value = " . $row['StatusID'] . ">" . "" . $row['StatusID'] . " " . $row['StatusName'] . "</option>" . "<br>";
+        echo "<option value = " . $row['StatusID'] . ">" . "" . $row['StatusName'] . "</option>" . "<br>";
     }
 }
 

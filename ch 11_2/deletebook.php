@@ -3,7 +3,7 @@ $id = $_REQUEST['id'];
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$dbname = "bookstore";
+$dbname = "bookstore2";
 $conn = mysqli_connect($hostname, $username, $password);
 if (!$conn) die("ไม่สามารถติดต่อกับ MySQL ได้");
 mysqli_select_db($conn, $dbname) or die("ไม่สามารถเลือกฐานข้อมูล bookstore ได้");

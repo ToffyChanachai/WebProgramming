@@ -72,7 +72,7 @@ if (isset($_REQUEST['Submit'])) {
     $DayAmount = $_REQUEST['DayAmount'];
 }
 
-$target_dir = "Pictures/";
+$target_dir = "pictures/";
 $target_file = $target_dir . basename($_FILES["ImageFile"]["name"]);
 // save file to folder
 move_uploaded_file($_FILES["ImageFile"]["tmp_name"], $target_file);
