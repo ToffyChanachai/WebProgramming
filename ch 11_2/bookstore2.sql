@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2023 at 02:44 AM
+-- Generation Time: Mar 09, 2023 at 02:53 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -73,6 +73,15 @@ CREATE TABLE `statusbook` (
   `StatusName` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `statusbook`
+--
+
+INSERT INTO `statusbook` (`StatusID`, `StatusName`) VALUES
+('01', 'ปกติ'),
+('02', 'ชำรุด'),
+('03', 'ส่งซ่อม');
+
 -- --------------------------------------------------------
 
 --
@@ -83,6 +92,15 @@ CREATE TABLE `typebook` (
   `TypeID` char(3) NOT NULL,
   `TypeName` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `typebook`
+--
+
+INSERT INTO `typebook` (`TypeID`, `TypeName`) VALUES
+('001', 'การ์ตูน'),
+('002', 'นิยาย'),
+('003', 'นิตยสาร');
 
 --
 -- Indexes for dumped tables

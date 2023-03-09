@@ -32,8 +32,7 @@
         echo "<tr align=\"center\" bgcolor=\"#CCFFFF\">";
         echo "<td align=\"center\" bgcolor =\"#0099CC\">$a</td>";
         echo "<td align=\"center\"> ";
-        echo "<a href=\"detailbook.php?BookID='.$rs["BookID"]'\">$rs[0]</a></td>";
-        //echo '<td><a href="customerUpdate1.php?customerId='.$rs["customerId"].'">[แก้ไข]</a></td>'
+        echo "<a href=\"detailbook.php?BookID='.$rs[0]'\">$rs[0]</a></td>";
         echo "<td align=\"center\">$rs[1]</td>";
         echo "<td align=\"center\"> <a href=\"deletebook.php?BookID=$rs[0]\"";
         echo "onclick=\"return confirm(' ยืนยันการลบข้อมูลหนังสือ $rs[1] ')\">[ลบ] ";
