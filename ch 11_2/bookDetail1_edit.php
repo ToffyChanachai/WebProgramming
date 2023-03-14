@@ -6,7 +6,7 @@
 
 <BODY>
     <?php
-    $id = $_REQUEST['id'];
+    $id = $_REQUEST['BookID'];
     $hostname = "localhost";
     $username = "root";
     $password = "";
